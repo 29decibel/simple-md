@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cp public/index.html ./dist && esbuild editor.js --bundle --outfile=dist/editor.js --watch"
+    "build": "mkdir dist && cp public/index.html ./dist && esbuild editor.js --bundle --outfile=dist/editor.js --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "esbuild": "^0.15.11",
     "prosemirror-example-setup": "^1.2.1",
     "prosemirror-inputrules": "^1.2.0",
     "prosemirror-markdown": "^1.10.0",
