@@ -1,0 +1,21 @@
+{
+  "name": "simple-md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild editor.js --bundle --outfile=dist/editor.js --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prosemirror-example-setup": "^1.2.1",
+    "prosemirror-inputrules": "^1.2.0",
+    "prosemirror-markdown": "^1.10.0",
+    "prosemirror-model": "^1.18.1",
+    "prosemirror-state": "^1.4.1",
+    "prosemirror-view": "^1.29.0",
+    "punycode": "^2.1.1"
+  }
+}
