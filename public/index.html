@@ -8,8 +8,24 @@
     <link rel="stylesheet" href="https://prosemirror.net/css/editor.css" />
   </head>
   <body>
-    <div id="editor"></div>
-    <ul id="posts"></ul>
+    <main>
+      <section>
+        <ul id="posts"></ul>
+      </section>
+      <div id="editor"></div>
+    </main>
+
     <script src="editor.js"></script>
+    <style>
+      main {
+        display: flex;
+      }
+      #posts {
+        max-width: 250px;
+      }
+      #editor {
+        flex: 1;
+      }
+    </style>
   </body>
 </html>

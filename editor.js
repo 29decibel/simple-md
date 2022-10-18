@@ -88,6 +88,7 @@ let editor = new EditorView(place, {
           "Content-Type": "application/json",
         },
       });
+      // TODO updating local caching as well -> currentPost, array of posts loaded above.
     }
     editor.updateState(newState);
   },
